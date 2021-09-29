@@ -1,0 +1,16 @@
+.container {
+  overflow: auto;
+  white-space: nowrap;
+  padding: 12px 14px;
+}
+
+.chip {
+  padding: 24px;
+  border-radius: 24px;
+  background-color: white;
+}
+
+.chip > ion-icon, .chip > ion-label {
+  color: black;
+  font-weight: 600;
+}

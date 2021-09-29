@@ -1,0 +1,11 @@
+.searchToolbar {
+  position: sticky;
+  top: 0;
+  padding: 8px;
+  --background: var(--ion-color-white);
+}
+
+.searchBar {
+  --border-radius: 18px;
+  --box-shadow: 0px 0px 0px 1.5px #cdcdcd;
+}

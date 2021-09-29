@@ -1,0 +1,29 @@
+:root {
+  --ion-color-black: #121212;
+  --ion-color-white: #ffffff;
+  --ion-font-family: 'Poppins', sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    --ion-color-black: #ffffff;
+    --ion-color-white: #121212;
+  }
+}
+
+ion-button {
+  text-transform: none;
+}
+
+ion-tab-button::before {
+  background-color: transparent;
+  display: block;
+  content: "";
+  margin: 0 auto;
+  width: 60%;
+  height: 4px;
+}
+
+ion-tab-button.tab-selected::before {
+  background-color: var(--ion-color-primary);
+}

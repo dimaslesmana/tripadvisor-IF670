@@ -1,0 +1,20 @@
+.headerBackground {
+  position: relative;
+  height: 60vh;
+  margin-bottom: 26px;
+  background: var(--ion-color-secondary);
+}
+
+.headerTitle {
+  padding-top: 26px;
+  padding-bottom: 10px;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.userAvatar {
+  width: 2.2rem;
+  height: 2.2rem;
+  margin-top: 20px;
+  margin-right: 26px;
+}

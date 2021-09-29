@@ -1,0 +1,26 @@
+.card {
+  margin-bottom: 8px;
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+  height: 30vh;
+  text-align: center;
+  border-radius: 0px;
+}
+
+.card .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card .content .title {
+  font-size: 2em;
+}
+
+.card .content .button {
+  margin-top: 14px;
+  --color: #ffffff;
+  --border-color: #ffffff;
+}

@@ -1,0 +1,14 @@
+.segment {
+  width: 70%;
+  margin-bottom: 12px;
+}
+
+.segment .button {
+  min-width: 0;
+  min-height: 0;
+  margin-right: 18px;
+  text-transform: none;
+  --background-hover-opacity: 0;
+  --color-checked: var(--ion-color-black);
+  --color: var(--ion-color-black);
+}

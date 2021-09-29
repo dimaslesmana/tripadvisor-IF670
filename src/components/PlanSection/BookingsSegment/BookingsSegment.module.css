@@ -1,0 +1,6 @@
+.viewBookingButton {
+  --box-shadow: 0px;
+  --background: var(--ion-color-black);
+  --color: var(--ion-color-white);
+  font-weight: 600;
+}
